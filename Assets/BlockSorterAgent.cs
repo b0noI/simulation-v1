@@ -84,8 +84,8 @@ public class BlockSorterAgent : Agent
 
     public override void OnActionReceived(ActionBuffers actions)
     {
-	MoveAgent(actions.DiscreteActions);
-	SetReward(-1f / MaxStep);
+			MoveAgent(actions.DiscreteActions);
+			SetReward(-1f / MaxStep);
     }
 
     public override void OnEpisodeBegin()

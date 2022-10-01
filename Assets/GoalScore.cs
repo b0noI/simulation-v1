@@ -9,7 +9,7 @@ public class GoalScore : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-	if (collision.gameObject.CompareTag("goal"))
+	if (collision.gameObject.CompareTag("target"))
 	{
 	    agent.GoalScored();
 	}
